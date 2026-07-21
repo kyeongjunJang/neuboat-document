@@ -1,0 +1,32 @@
+// 제품 이름 (문서 소제목으로 들어감.)
+:product-name: NEUBOAT
+
+// 문서 이름 (문서 제목으로 들어감.)
+:document-title: NEUBOAT 업데이트 시험 계획서
+:header-right: {document-title}
+
+// 문서 번호
+:document-number: AVK-UPD-001
+
+// 모듈 이름. 없으면 - (hyphen)
+:module-name: -
+
+// 문서 타입: Concept document, Test report, Design document 등
+:document-type: Test Plan
+
+// 프로젝트 관리자
+:project-manager: -
+
+// 문서 주 편집자 혹은 주 저자
+:final-editor: kyeongjun jang
+
+// 문서 저자. final editor 제외하고 작성. 별도로 없어도 주석 처리하지 말 것.
+:authors: 
+
+// 문서 버전. 버전이 없으면 - (hyphen)
+:document-version: 0.1
+:revnumber: {document-version}
+
+// 문서 일자. 따로 문서 일자가 없는 경우, 모두 주석 처리 할 것.
+:release-date: 2026-07-23
+:revdate: {release-date}
