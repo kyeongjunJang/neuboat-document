@@ -55,7 +55,16 @@ caption:
   align: center
 
 role:
-  annotation: 
+  pass:
+    font-color: '1D6FD6'
+    font-style: bold
+  warn:
+    font-color: 'E08A00'
+    font-style: bold
+  fail:
+    font-color: 'CC0000'
+    font-style: bold
+  annotation:
     font-color: '659ADD'
     font-style: italic
   emphasis:

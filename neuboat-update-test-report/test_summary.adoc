@@ -1,0 +1,60 @@
+[frame=none,grid=none,cols=">1",width=100%]
+|===
+|[.abstract-confidential-label]#COMPANY CONFIDENTIAL#
+|===
+
+[.test-summary]
+[discrete]
+== {report-title}
+
+[discrete]
+=== {report-number}
+
+[cols="^.^2h,.^5"]
+|===
+| [.table-label]#Product Name#
+| {product-name} — 전 제품군 6종 (Dock2, Dock2 Control, Navi, Navi Control, Full Assist, Full Control)
+
+| [.table-label]#Product Version#
+a|
+* v2.0.0 (rc 빌드 기준: ORU 12.0.0-rc.29, MFD GW 52.0.0-rc.36)
+* v2.0.1 (가상 버전 - 업데이트 기능 검증용)
+
+| [.table-label]#Test Period#
+| {test-start-date} - {test-end-date}
+
+| [.table-label]#Test Specification#
+| AVK-UPD-001 NEUBOAT 업데이트 시험 계획서
+
+| [.table-label]#Issue Date#
+| {issue-date}
+
+| [.table-label]#Tested By#
+| {tested-by}
+|===
+
+[discrete]
+==== TEST RESULTS: SUMMARY
+
+* 전 제품군(6종) v1.1.3/v1.1.5 → v2.0.0 마이그레이션 및 v2.0.0 → v2.0.1 업데이트 검증 완료
+* 총 66회 수행: [.pass]#PASS# 59회 / [.warn]#WARN# 1회 / [.fail]#FAIL# 6회 — FAIL 6회는 모두 재시도로 복구, WARN 1회는 데이터 이슈(엔진 제조사 설정 소실)
+* v2.0.0 개선된 업데이트 기능 검증: SD 카드/온라인/모바일 import 매체 및 미스매칭 복구 경로 동작 확인
+* ORU/MFD GW 업데이트 실패 후 재시도: 4개 조합 모두 버전 정합성 복구 확인
+* DB 마이그레이션 검증: svm_ss·sic 정상, sdm·apg 일부 항목 이관 누락 확인 → 수정 검토
+* v2 업데이트 후 사용자 조치 필요: 캘리브레이션 수행(필수), timezone 설정
+* 발견 이슈: 수정 검토 4건, 1.x 기인 대응 관리 3건
+
+{empty} +
+{empty} +
+
+[.abstract-proprietary-box]
+****
+[.abstract-proprietary-title]#AVIKUS PROPRIETARY DATA#
+
+[.abstract-proprietary-body]
+This document contains confidential proprietary information. +
+Restricted to use only by Avikus employees or other persons authorized by Avikus in writing to use it. +
+Since it contains Avikus trade secrets, you cannot view, use, copy, distribute, or disclose this material +
+without the prior written approval of Avikus.
+****
+<<<

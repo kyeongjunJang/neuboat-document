@@ -1,0 +1,44 @@
+// 제품 이름 (문서 소제목으로 들어감.)
+:product-name: NEUBOAT
+
+// 문서 이름 (문서 제목으로 들어감.)
+:report-title: NEUBOAT 업데이트 시험 결과 보고서
+:header-right: {report-title}
+
+// 문서 번호: AVK-<코드>-TSE<연도>-<일련번호> 형식.
+// UPD = 업데이트 테스트 시리즈 (도킹 테스트 NDC와 별개 시리즈. 계획서: AVK-UPD-001)
+:report-number: AVK-UPD-TSE2026-001
+:header-left: {report-number}
+
+// 제품 버전 (업데이트 목표 버전. 표지 표에는 rc 상세를 직접 기재 - test_summary.adoc 참조)
+:product-version: v2.0.0-rc / v2.0.1(가상)
+
+// 프로젝트 관리자
+:project-manager: -
+
+// 문서 주 편집자 혹은 주 저자. 저자 목록 맨 첫번째에 들어갑니다.
+:final-editor: kyeongjun jang
+
+// 시험 수행 인원. 여러명이면 comma로 구분
+:tested-by: kyeongjun jang
+
+// 문서 저자. final editor 제외하고 작성. 별도로 없어도 주석 처리하지 말 것.
+:authors:
+
+// 검수자, 여러명이면 comma로 구분
+:authorized-by: -
+
+// 문서 버전.
+:document-version: 0.1
+:revnumber: {document-version}
+
+// Test 기간
+:test-start-date: 2026-07-27
+:test-end-date: 2026-07-30
+
+// Test 장소
+:test-place: Avikus
+
+// 문서 일자.
+:issue-date: 2026-08-03
+:revdate: {issue-date}
