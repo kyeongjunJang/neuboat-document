@@ -1,0 +1,93 @@
+include::metadata.adoc[]
+include::_document_settings.adoc[]
+
+// 문서 번호가 부여되지 않는 간단한 배포 안내문 (영문)
+:doctype: article
+:title-page:
+
+= {product-name}: {notice-title}
+
+== Customer Notice
+
+=== Before Updating
+
+* *[Control products]* The Engine GW must be connected during the update. The update will fail if it is disconnected.
+* *[Navi products]* The *Setting > Navi Control* values are reset by the update. Please write down your current settings beforehand.
+* *[Customers on V1.0.5]* Online update is not available; the update can only be performed via SD card. SD card packages differ by product, so be sure to use the package for your product.
+* *[All products]* After updating to V2.0.0, downgrading is possible only via SD card. From V2.0.0 onward, online updates support upgrades only.
+
+=== If the Update Fails
+
+* *[Customers on V1.1.5]* If the update fails, press the *Retry* button on the failure screen. If it still fails after two retries, please contact Avikus.
+
+=== Required Actions After Updating
+
+* *[Control products, V1.x → V2.0]* The full SIC (Maneuvering Calibration) must be performed again, including any steps already completed. This is required due to major performance improvements in this release, and we plan to remove this requirement in future updates.
+* *[All products]* Please re-enter your Navi Control settings.
+
+=== GPS Alarm Improvement
+
+The frequent GPS alarms seen in V1.x have been reduced through a change in the alarm policy.
+
+=== NEUBOAT Mobile App Official Launch
+
+The NEUBOAT Mobile App is now officially available.
+
+=== Known Issues
+
+* *[V1.1.5 → V2.0, non-Control products]* An Engine GW entry appears in the update list, but it does not affect the update.
+
+<<<
+
+== Guidance for US Sales & Customer Support
+
+=== Key Points for Customer Support
+
+* Notify Control customers in advance that SIC must be redone. This is the most likely source of complaints, so pair it with the message _"One time only, for the performance improvements."_
+* Contact any Control customers running without the Engine GW individually before the update.
+* Inquiries that the screen looks different after the update require MFD GW action. A separate guide will be provided; until then, escalate to HQ.
+* When announcing V2.0.0, also share the official launch of the NEUBOAT Mobile App.
+
+=== V1.0.5 Customers: SD Card Update
+
+Online update is not available; update via SD card only. Download the SD card package from NEUBOAT 365 (https://neuboat-admin.avikus.ai/). Packages differ by product.
+
+[cols="1,1",options="header"]
+|===
+| Product | SD card package
+
+| Full Control, Dock Control, Navi Control
+| Full package
+
+| DOCK II, NAVI, Full Assist
+| Package without the Engine GW update file
+|===
+
+WARNING: Using the full package on DOCK II, NAVI, or Full Assist will cause the update to fail. Make sure to use the correct package.
+
+=== V1.1.5 Customers: If the Update Fails (All Products)
+
+. Retry using the *Retry* button on the failure screen. Most failures are resolved by retrying.
+. If it still fails after two retries, escalate to HQ. (Subject to troubleshooting; a detailed manual is in preparation.)
+
+=== Expected Q&A
+
+[cols="1,1",options="header"]
+|===
+| Question | Answer
+
+| The update list shows Engine GW, but our boat is not a Control model.
+| This is a known display bug. It can be ignored and the update can proceed.
+
+| My Smart Navi settings have been reset.
+| This is a known behavior. The settings need to be re-entered.
+
+| GPS alarms have decreased. Is this normal?
+| Yes. This is intended behavior due to the alarm policy change.
+
+| I'm connected to Wi-Fi, but can't reach the update server. (V1.0.5)
+| Online update is not available on V1.0.5. Update using the SD card package for the product.
+
+| The update failed. (V1.1.5)
+| Retry. If it keeps failing, escalate to HQ.
+|===

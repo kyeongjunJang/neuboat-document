@@ -1,0 +1,24 @@
+// 제품 이름
+:product-name: NEUBOAT
+
+// 문서 이름 (문서 제목으로 들어감.)
+:notice-title: NEUBOAT V2.0.0 업데이트 안내 (초안)
+:header-right: {notice-title}
+:header-left: {product-name}
+
+// 대상 버전
+:target-version: V2.0.0
+
+// 문서 주 편집자 혹은 주 저자
+:final-editor: kyeongjun jang
+
+// 문서 저자. final editor 제외하고 작성. 별도로 없어도 주석 처리하지 말 것.
+:authors:
+
+// 문서 버전.
+:document-version: 0.1
+:revnumber: {document-version}
+
+// 문서 일자. 따로 문서 일자가 없는 경우, 모두 주석 처리 할 것.
+// :release-date:
+// :revdate: {release-date}
