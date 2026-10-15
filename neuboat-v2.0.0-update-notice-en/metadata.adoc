@@ -2,7 +2,7 @@
 :product-name: NEUBOAT
 
 // 문서 이름 (문서 제목으로 들어감.)
-:notice-title: NEUBOAT V2.0.0 Update Notice (Draft)
+:notice-title: NEUBOAT V2.0.0 Update Notice
 :header-right: {notice-title}
 :header-left: {product-name}
 
@@ -16,8 +16,7 @@
 :authors:
 
 // 문서 버전.
-:document-version: 0.1
-:revnumber: {document-version}
+
 
 // 문서 일자. 따로 문서 일자가 없는 경우, 모두 주석 처리 할 것.
 // :release-date:
